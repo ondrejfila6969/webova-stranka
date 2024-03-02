@@ -6,6 +6,7 @@ const requirements = document.getElementById("requirements");
 const achievements = document.getElementById("achievements");
 const footer = document.getElementById("footer");
 const footerTitle = document.getElementById("footerTitle");
+const footerTitle2 = document.getElementById("footerTitle2");
 
 toggle.addEventListener('click', function(){
     this.classList.toggle('bi-moon');
@@ -21,7 +22,7 @@ toggle.addEventListener('click', function(){
         achievements.style.color = "white";
         footer.style.backgroundColor = "#11101b";
         footerTitle.style.color = "white";
-
+        footerTitle2.style.color = "white";
         
     }else{
         body.style.background = '#11101b';
@@ -35,5 +36,6 @@ toggle.addEventListener('click', function(){
         achievements.style.color = "#11101b";
         footer.style.backgroundColor = "white";
         footerTitle.style.color = "#11101b";
+        footerTitle2.style.color = "#11101b";
     }
 });

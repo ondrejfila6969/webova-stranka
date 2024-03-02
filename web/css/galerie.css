@@ -1,49 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.nadpis{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 30px;
-    color: red;
+.nadpis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+  color: red;
 }
 
-.konvoje img{
-    width: 350px;
-    
-    padding-left: 10px;
-    padding-bottom: 10px;
+.konvoje img {
+  width: 350px;
+
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
-.konvoje{
-    position: relative;
-    top: 60px;
+.konvoje {
+  position: relative;
+  top: 60px;
 }
 
-.obsah{
-    text-align: center;
+.obsah {
+  text-align: center;
 }
 
-footer{
-    margin-top: 60px;
-    background-color: #2d2e33;
-    padding: 20px;
+footer {
+  margin-top: 300px;
+  background-color: #11101b;
+  color: white;
+  padding-top: 30px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
 }
 
-p, a{
-    color: white;
+#footer a {
+  color: white;
 }
 
-.footer-col{
-    text-align: center;
-    color: white;
+::-webkit-scrollbar {
+  width: 20px;
 }
 
-::selection{
-    background-color: green;
-    color: white;
+::-webkit-scrollbar-track {
+  box-shadow: inset 100px 100px 100px white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #11101b;
+}
+
+::selection {
+  background-color: green;
+  color: white;
 }
