@@ -9,7 +9,7 @@ const footerTitle = document.getElementById("footerTitle");
 
 toggle.addEventListener('click', function(){
     this.classList.toggle('bi-moon');
-    if(this.classList.toggle('bi-brightness-high-fill')){
+    if(this.classList.toggle('bi-brightness-high-fill')) {
         body.style.background = 'white';
         informations.style.backgroundColor = "#11101b";
         informations.style.color = "white";
@@ -21,6 +21,7 @@ toggle.addEventListener('click', function(){
         achievements.style.color = "white";
         footer.style.backgroundColor = "#11101b";
         footerTitle.style.color = "white";
+
         
     }else{
         body.style.background = '#11101b';
