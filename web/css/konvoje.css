@@ -18,7 +18,7 @@ body {
 #info1,
 #info2,
 #info3 {
-  height: 500px;
+  height: 350px;
   flex-basis: 30%;
   margin: 50px;
   font-size: 15px;
@@ -40,7 +40,7 @@ body {
 #info2 p,
 #info3 p {
   padding-left: 30px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 footer {
@@ -78,6 +78,13 @@ footer {
   }
   #info1, #info2, #info3 {
     border-radius: 5px;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  #footerTitle {
+    font-size: 22px;
+    text-align: center;
   }
 }
 

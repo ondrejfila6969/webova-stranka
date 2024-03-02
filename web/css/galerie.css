@@ -9,7 +9,8 @@
   justify-content: center;
   position: relative;
   top: 30px;
-  color: red;
+  color: #11101b;
+  font-size: 35px;
 }
 
 .konvoje img {
@@ -60,4 +61,26 @@ footer {
 ::selection {
   background-color: green;
   color: white;
+}
+
+@media screen and (max-width: 576px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  #footerTitle {
+    font-size: 22px;
+    text-align: center;
+  }  
+}
+
+@media screen and (min-width: 576px) {
+  @media screen and (max-width: 1200px) {
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
+    #footerTitle {
+      font-size: 22px;
+      text-align: center;
+    }
+  }
 }

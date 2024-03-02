@@ -16,6 +16,7 @@ html {
   color: #11101b;
   position: relative;
   top: 95vh;
+  font-size: 50px;
 }
 
 .kontakty {
@@ -142,5 +143,25 @@ footer {
   }
   footer {
     margin-top: 520px;
+  }
+}
+@media screen and (max-width: 576px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  #footerTitle {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 576px) {
+  @media screen and (max-width: 1200px) {
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
+    #footerTitle {
+      font-size: 22px;
+      text-align: center;
+    }
   }
 }
