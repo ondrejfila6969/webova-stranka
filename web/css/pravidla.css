@@ -29,17 +29,22 @@ body {
 #rules,
 #rules2 {
   flex-basis: 50%;
-  width: 50%;
   padding: 30px;
   margin: 30px;
+}
+
+#rules a,
+#rules2 a {
+  color: red;
+  text-decoration: underline;
 }
 
 #rules p,
 #rules2 p {
   font-size: 15px;
   padding-top: 15px;
-  padding-left: 30px;
-  padding-right: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #rules .title,
@@ -59,9 +64,8 @@ body {
 
 #rules,
 #rules2 {
-  height: 350px;
+  height: auto;
   font-size: 16px;
-  width: 750px;
   background-color: #11101b;
   color: white;
   border-radius: 30px;
@@ -77,6 +81,10 @@ footer {
   text-align: center;
   justify-content: center;
   place-items: center;
+}
+
+#footer a{
+  color: red;
 }
 
 ::-webkit-scrollbar {
@@ -101,32 +109,25 @@ footer {
   #rules2 p {
     font-size: 17.5px;
     padding-top: 15px;
-    padding-left: 30px;
-    padding-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   #rules,
   #rules2 {
-    margin-bottom: 50px;
+    padding-bottom: 10px;
   }
 
   #rules,
   #rules2 {
     border-radius: 0px;
-    width: 500px;
-    height: 500px;
-    text-align: center;
   }
 
-  #rules,
-  #rules2 {
-    margin-left: 0%;
-    padding: auto;
-  }
+
   ::-webkit-scrollbar {
     width: 0px;
   }
   #footerTitle {
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
   }
 }
@@ -140,22 +141,19 @@ footer {
     #rules,
     #rules2 {
       border-radius: 0px;
-      width: 100%;
-      text-align: center;
+      padding-bottom: 10px;
     }
     #rules p,
     #rules2 p {
       font-size: 16px;
       padding-top: 15px;
-      padding-left: 30px;
-      padding-right: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     #rules,
     #rules2 {
-      margin-left: 0%;
-      padding: auto;
-      margin-bottom: 50px;
+      margin-bottom: 10px;
       border-radius: 0px;
     }
     #footerTitle {

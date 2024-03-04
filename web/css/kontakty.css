@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 body,
@@ -13,7 +14,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: #11101b;
   position: relative;
   top: 95vh;
   font-size: 50px;
@@ -26,10 +26,20 @@ html {
   position: relative;
   top: 0;
   padding-bottom: 50px;
+  
 }
 
 .foto {
   border: solid black 2px;
+}
+
+.medvidek,
+.lucian,
+.eda,
+.vasa,
+.alan{
+  text-align: center;
+  width: 250px;
 }
 
 .lucian {
@@ -79,7 +89,7 @@ footer {
 }
 
 #footer a {
-  color: white;
+  color: red;
 }
 
 ::-webkit-scrollbar {
@@ -150,7 +160,7 @@ footer {
     width: 0px;
   }
   #footerTitle {
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
   }
 }

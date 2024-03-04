@@ -1,86 +1,85 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-
-.nadpis {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  top: 30px;
-  color: #11101b;
-  font-size: 35px;
-}
-
-.konvoje img {
-  width: 350px;
-
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
-
-.konvoje {
-  position: relative;
-  top: 60px;
-}
-
-.obsah {
-  text-align: center;
-}
-
-footer {
-  margin-top: 300px;
-  background-color: #11101b;
-  color: white;
-  padding-top: 30px;
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  justify-content: center;
-  place-items: center;
-}
-
-#footer a {
-  color: white;
-}
-
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: inset 100px 100px 100px white;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #11101b;
-}
-
-::selection {
-  background-color: green;
-  color: white;
-}
-
-@media screen and (max-width: 576px) {
-  ::-webkit-scrollbar {
-    width: 0px;
+    margin: 0;
+    padding: 0;
+    user-select: none;
   }
-  #footerTitle {
-    font-size: 22px;
+  
+  .nadpis1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+  }
+  
+  .konvoje img {
+    width: 350px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .konvoje {
+    position: relative;
+    top: 60px;
+  }
+  
+  .obsah {
     text-align: center;
-  }  
-}
-
-@media screen and (min-width: 576px) {
-  @media screen and (max-width: 1200px) {
+  }
+  
+  footer {
+    margin-top: 100px;
+    background-color: #11101b;
+    color: white;
+    padding-top: 30px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+  }
+  
+  #footer a {
+    color: red;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 100px 100px 100px white;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #11101b;
+  }
+  
+  ::selection {
+    background-color: green;
+    color: white;
+  }
+  
+  @media screen and (max-width: 576px) {
     ::-webkit-scrollbar {
       width: 0px;
     }
     #footerTitle {
-      font-size: 22px;
+      font-size: 20px;
       text-align: center;
     }
   }
-}
+  
+  @media screen and (min-width: 576px) {
+    @media screen and (max-width: 1200px) {
+      ::-webkit-scrollbar {
+        width: 0px;
+      }
+      #footerTitle {
+        font-size: 22px;
+        text-align: center;
+      }
+    }
+  }
